@@ -11,16 +11,16 @@ import { authState } from './store';
 
 function App() {
   const { isAuthenticated } = useRecoilValue(authState);
-//Authentication
+//Authentication ----
  
  
   // console.log()
 
-  const handleSignUp = (email: string, password: string) => {
-    console.log('Sign Up', { email, password });
-    // Implement your sign-up logic here
-    registerUser(email, password)
-  };
+  // const handleSignUp = (email: string, password: string) => {
+  //   console.log('Sign Up', { email, password });
+  //   // Implement your sign-up logic here
+  //   registerUser(email, password)
+  // };
   return (
     <BrowserRouter>
       <Routes>
